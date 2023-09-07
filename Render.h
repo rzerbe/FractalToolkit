@@ -4,7 +4,6 @@
 
 #include "InputControl.h"
 #include "Image.h"
-#include "Command.h"
 
 class Render
 {

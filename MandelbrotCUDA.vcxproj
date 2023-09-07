@@ -103,7 +103,6 @@
     <CudaCompile Include="kernel.cu" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Command.h" />
     <ClInclude Include="Cuda.h" />
     <ClInclude Include="Image.h" />
     <ClInclude Include="InputControl.h" />
@@ -114,7 +113,6 @@
     <ClInclude Include="Render.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Command.cpp" />
     <ClCompile Include="Image.cpp" />
     <ClCompile Include="InputControl.cpp" />
     <ClCompile Include="Main.cpp" />
