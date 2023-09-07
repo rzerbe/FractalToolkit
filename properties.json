@@ -1,0 +1,31 @@
+{
+  "General": {
+    "Width": 1920,
+    "Height": 1080,
+    "Threads": 32,
+    "Instruction_Set": 0
+  },
+  "Mandelbrot": {
+    "Window": {
+      "X": {
+        "Min": -1.00,
+        "Max": 1.00
+      },
+      "Y": {
+        "Min": -1.00,
+        "Max": 1.00
+      }
+    },
+    "Point": {
+      "Cr": 0.0,
+      "Ci": 0.0,
+      "Rr": 1.0
+    },
+    "Max_Iterations": 512,
+    "Shading_Mode": 0,
+    "Smooth_Shading": 1,
+    "Super_Sampling_Anti_Aliasing": 1,
+    "Filename": "test.bmp",
+    "Palette": "palette.json"
+  }
+}
