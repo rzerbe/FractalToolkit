@@ -12,7 +12,6 @@
     <ClInclude Include="InputControl.h" />
     <ClInclude Include="Properties.h" />
     <ClInclude Include="Render.h" />
-    <ClInclude Include="Command.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Image.cpp" />
@@ -22,7 +21,6 @@
     <ClCompile Include="InputControl.cpp" />
     <ClCompile Include="Properties.cpp" />
     <ClCompile Include="Render.cpp" />
-    <ClCompile Include="Command.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="properties.json" />
