@@ -8,10 +8,10 @@
 #include <omp.h>
 
 #include "Cuda.h"
-#include "Image.h"
-#include "Render.h"
-#include "Properties.h"
-#include "InputControl.h"
+#include "../../Program/Image.h"
+#include "../../Program/Render.h"
+#include "../../Program/Properties.h"
+#include "../../Program/InputControl.h"
 class Mandelbrot
 {
 public:

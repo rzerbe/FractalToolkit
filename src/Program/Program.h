@@ -7,7 +7,7 @@
 
 #include "Cuda.h"
 #include "Image.h"
-#include "Mandelbrot.h"
+#include "../Fractal/Mandelbrot/Mandelbrot.h"
 #include "Properties.h"
 #include "InputControl.h"
 #include "Render.h"

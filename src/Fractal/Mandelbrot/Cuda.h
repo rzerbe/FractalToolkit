@@ -12,8 +12,8 @@
 #include "cuda_runtime.h"
 #include "cuda_profiler_api.h"
 
-#include "Image.h"
-#include "Properties.h"
+#include "../../Program/Image.h"
+#include "../../Program/Properties.h"
 
 namespace mandelbrot_cuda
 {
