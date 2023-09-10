@@ -366,5 +366,4 @@ FodyWeavers.xsd
 *.bmp
 
 # Submodules, build
-/external
 /build
