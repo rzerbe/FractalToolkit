@@ -366,4 +366,9 @@ FodyWeavers.xsd
 *.bmp
 
 # Submodules, build
+/external
 /build
+
+# Merge comparison files
+*.rej
+*.orig
