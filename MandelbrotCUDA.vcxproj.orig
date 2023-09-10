@@ -102,6 +102,19 @@
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
+    <CudaCompile Include="kernel.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cuda.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="InputControl.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="Mandelbrot.h" />
+    <ClInclude Include="Program.h" />
+    <ClInclude Include="Properties.h" />
+    <ClInclude Include="Render.h" />
+=======
     <CudaCompile Include="src\Fractal\Mandelbrot\MandelbrotCuda.cu" />
   </ItemGroup>
   <ItemGroup>
@@ -113,15 +126,16 @@
     <ClInclude Include="src\Program\Program.h" />
     <ClInclude Include="src\Program\Properties.h" />
     <ClInclude Include="src\Program\Render.h" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Program\Image.cpp" />
-    <ClCompile Include="src\Program\InputControl.cpp" />
-    <ClCompile Include="src\Program\Main.cpp" />
-    <ClCompile Include="src\Fractal\Mandelbrot\Mandelbrot.cpp" />
-    <ClCompile Include="src\Program\Program.cpp" />
-    <ClCompile Include="src\Program\Properties.cpp" />
-    <ClCompile Include="src\Program\Render.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="InputControl.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Mandelbrot.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Properties.cpp" />
+    <ClCompile Include="Render.cpp" />
   </ItemGroup>
   <ItemGroup>
     <CopyFileToFolders Include="external\lib\glew64.dll">

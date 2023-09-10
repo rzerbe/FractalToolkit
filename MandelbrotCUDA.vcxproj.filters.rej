@@ -1,0 +1,15 @@
+--- MandelbrotCUDA.vcxproj.filters
++++ MandelbrotCUDA.vcxproj.filters
+@@ -1,10 +1,10 @@
+ ﻿<?xml version="1.0" encoding="utf-8"?>
+ <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+   <ItemGroup>
+-    <CudaCompile Include="src\Fractal\Mandelbrot\MandelbrotCuda.cu" />
++    <CudaCompile Include="src\Fractal\Mandelbrot\kernel.cu" />
+   </ItemGroup>
+   <ItemGroup>
+-    <ClInclude Include="src\Fractal\Mandelbrot\MandelbrotCuda.h" />
++    <ClInclude Include="src\Fractal\Mandelbrot\Cuda.h" />
+     <ClInclude Include="src\Program\Image.h" />
+     <ClInclude Include="src\Program\Main.h" />
+     <ClInclude Include="src\Program\Program.h" />

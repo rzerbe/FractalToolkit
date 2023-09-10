@@ -7,11 +7,19 @@
 #include <intrin.h>
 #include <omp.h>
 
+<<<<<<< Updated upstream:Mandelbrot.h
+#include "Cuda.h"
+#include "Image.h"
+#include "Render.h"
+#include "Properties.h"
+#include "InputControl.h"
+=======
 #include "MandelbrotCuda.h"
 #include "../../Program/Image.h"
 #include "../../Program/Render.h"
 #include "../../Program/Properties.h"
 #include "../../Program/InputControl.h"
+>>>>>>> Stashed changes:src/Fractal/Mandelbrot/Mandelbrot.h
 class Mandelbrot
 {
 public:
