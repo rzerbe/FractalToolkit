@@ -1,0 +1,19 @@
+--- MandelbrotCUDA.vcxproj
++++ MandelbrotCUDA.vcxproj
+@@ -97,14 +96,13 @@
+       <Runtime>InheritFromHost</Runtime>
+       <TypeInfo>InheritFromHost</TypeInfo>
+       <Warning>InheritFromHost</Warning>
+-      <CompileOut>build/$(Platform)/$(Configuration)/intermediate/%(Filename)%(Extension).obj</CompileOut>
+     </CudaCompile>
+   </ItemDefinitionGroup>
+   <ItemGroup>
+-    <CudaCompile Include="src\Fractal\Mandelbrot\MandelbrotCuda.cu" />
++    <CudaCompile Include="src\Fractal\Mandelbrot\kernel.cu" />
+   </ItemGroup>
+   <ItemGroup>
+-    <ClInclude Include="src\Fractal\Mandelbrot\MandelbrotCuda.h" />
++    <ClInclude Include="src\Fractal\Mandelbrot\Cuda.h" />
+     <ClInclude Include="src\Program\Image.h" />
+     <ClInclude Include="src\Program\InputControl.h" />
+     <ClInclude Include="src\Program\Main.h" />
